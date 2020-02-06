@@ -1,0 +1,7 @@
+{
+	"rsp": "..\\Support64\\ODBC\\CygNetODBC64.rsp",
+	"program" : "..\\Support64\\ODBC\\OdbcIsql.exe",
+	"description" : "CygNet ODBC Driver - 64-bit",
+	"icon" : "SUPPORT\\CygNetOdbc.ico",
+	"force rsp": false
+}
