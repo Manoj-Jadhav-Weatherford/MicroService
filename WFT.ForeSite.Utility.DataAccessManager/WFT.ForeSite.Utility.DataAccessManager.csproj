@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WFT.ForeSite.Framework\WFT.ForeSite.Framework.csproj" />
+    <ProjectReference Include="..\WFT.ForeSite.Utility.Comman\WFT.ForeSite.Utility.Comman.csproj" />
+  </ItemGroup>
+
+</Project>

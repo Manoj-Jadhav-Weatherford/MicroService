@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  wft.foresite.utility:
+    image: ${DOCKER_REGISTRY-}wftforesiteutility
+    build:
+      context: .
+      dockerfile: WFT.ForeSite.Utility\Dockerfile
