@@ -9,4 +9,55 @@
     <ProjectReference Include="..\WFT.ForeSite.Utility.Comman\WFT.ForeSite.Utility.Comman.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Reference Include="CygNet.API.Core">
+      <HintPath>..\Libraries\CygNet\CygNet.API.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="CygNet.API.Core64">
+      <HintPath>..\Libraries\CygNet\CygNet.API.Core64.dll</HintPath>
+    </Reference>
+    <Reference Include="CygNet.API.Facilities">
+      <HintPath>..\Libraries\CygNet\CygNet.API.Facilities.dll</HintPath>
+    </Reference>
+    <Reference Include="CygNet.API.Facilities64">
+      <HintPath>..\Libraries\CygNet\CygNet.API.Facilities64.dll</HintPath>
+    </Reference>
+    <Reference Include="CygNet.API.Historian">
+      <HintPath>..\Libraries\CygNet\CygNet.API.Historian.dll</HintPath>
+    </Reference>
+    <Reference Include="CygNet.API.Historian64">
+      <HintPath>..\Libraries\CygNet\CygNet.API.Historian64.dll</HintPath>
+    </Reference>
+    <Reference Include="CygNet.API.Points">
+      <HintPath>..\Libraries\CygNet\CygNet.API.Points.dll</HintPath>
+    </Reference>
+    <Reference Include="CygNet.API.Points64">
+      <HintPath>..\Libraries\CygNet\CygNet.API.Points64.dll</HintPath>
+    </Reference>
+    <Reference Include="CygNet.COMAPI">
+      <HintPath>..\Libraries\CygNet\CygNet.COMAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="CygNet.Core">
+      <HintPath>..\Libraries\CygNet\CygNet.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="CygNet.Core64">
+      <HintPath>..\Libraries\CygNet\CygNet.Core64.dll</HintPath>
+    </Reference>
+    <Reference Include="CygNet.Data.Core">
+      <HintPath>..\Libraries\CygNet\CygNet.Data.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="CygNet.Data.Facilities">
+      <HintPath>..\Libraries\CygNet\CygNet.Data.Facilities.dll</HintPath>
+    </Reference>
+    <Reference Include="CygNet.Data.Historian">
+      <HintPath>..\Libraries\CygNet\CygNet.Data.Historian.dll</HintPath>
+    </Reference>
+    <Reference Include="CygNet.Data.Points">
+      <HintPath>..\Libraries\CygNet\CygNet.Data.Points.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.CxCvsLib">
+      <HintPath>..\Libraries\Interop.CxCvsLib.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>
