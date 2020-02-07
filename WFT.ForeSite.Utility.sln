@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WFT.ForeSite.Utility.Comman
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WFT.ForeSite.Utility.DataAccessManager", "WFT.ForeSite.Utility.DataAccessManager\WFT.ForeSite.Utility.DataAccessManager.csproj", "{3FB793CF-916E-4A68-8694-30E18C95A671}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WFT.ForeSite.Microservice", "WFT.ForeSite.Microservice\WFT.ForeSite.Microservice.csproj", "{CF325488-E7F6-4905-B971-A9959FCBDD59}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WFT.ForeSite.Microservice", "WFT.ForeSite.Microservice\WFT.ForeSite.Microservice.csproj", "{CF325488-E7F6-4905-B971-A9959FCBDD59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WFT.ForeSite.WPF.UI", "WFT.ForeSite.WPF.UI\WFT.ForeSite.WPF.UI.csproj", "{CFFD1385-BBB5-4881-A798-500CBF71DDAC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{CF325488-E7F6-4905-B971-A9959FCBDD59}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF325488-E7F6-4905-B971-A9959FCBDD59}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF325488-E7F6-4905-B971-A9959FCBDD59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFFD1385-BBB5-4881-A798-500CBF71DDAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFFD1385-BBB5-4881-A798-500CBF71DDAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFFD1385-BBB5-4881-A798-500CBF71DDAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFFD1385-BBB5-4881-A798-500CBF71DDAC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
