@@ -40,12 +40,9 @@ namespace WFT.ForeSite.WPF.UI
                 var result = responseTask.Result;
                 if (result.IsSuccessStatusCode)
                 {
-
                     var readTask = result.Content.ReadAsAsync(typeof(IEnumerable<string>));
                     readTask.Wait();
-
-                    var students = readTask.Result;
-                   
+                    var results = readTask.Result;                   
                 }
             }
         }
