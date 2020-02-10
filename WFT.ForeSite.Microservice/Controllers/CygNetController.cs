@@ -17,9 +17,10 @@ namespace WFT.ForeSite.Microservice.Controllers
     {
         // GET: api/CygNet
         [HttpGet]
-        public IEnumerable<string> Get()
+        public IEnumerable<string> GetDomain()
         {
-            return new string[] { "value1", "value2" };
+            return new string[] { "9077", "9051" };
+
         }
 
         // GET: api/CygNet/5
