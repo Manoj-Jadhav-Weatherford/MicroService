@@ -6,13 +6,13 @@ namespace WFT.ForeSite.Framework
 {
 
     public static class ExceptionHandling
-    {
-        public static void Process<T>(Action<T> action, T parameter)
+        {
+        public static void Process<T>(Action action)
         {
             if (action == null) throw new ArgumentNullException("action");
             try
             {
-                action(parameter);
+                action();
             }
             catch (Exception ex)
             {
@@ -20,12 +20,12 @@ namespace WFT.ForeSite.Framework
             }
         }
 
-        public static T ProcessReturn<T>(Func<T, T> action, T parameter)
+        public static T ProcessReturn<T>(Func<T> action) 
         {
             if (action == null) throw new ArgumentNullException("action");
             try
             {
-                return action(parameter);
+                return action();
             }
             catch (Exception ex)
             {

@@ -8,5 +8,7 @@ namespace WFT.ForeSite.Utility.Comman.Model.ResponseModel
     public class CygnetResponseModel : BaseModel
     {
         public string Message { get; set; }
+
+        public bool IsCygNetConnected { get; set; }
     }
 }

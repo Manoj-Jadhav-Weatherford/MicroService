@@ -10,4 +10,10 @@
     <ProjectReference Include="..\WFT.ForeSite.Utility.DataAccessManager\WFT.ForeSite.Utility.DataAccessManager.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Reference Include="CygNet.COMAPI">
+      <HintPath>..\Libraries\CygNet\CygNet.COMAPI.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>

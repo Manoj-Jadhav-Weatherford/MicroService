@@ -17,4 +17,15 @@
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.10" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\WFT.ForeSite.Utility.BusinessManager\WFT.ForeSite.Utility.BusinessManager.csproj" />
+    <ProjectReference Include="..\WFT.ForeSite.Utility.Comman\WFT.ForeSite.Utility.Comman.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="CygNet.COMAPI">
+      <HintPath>..\Libraries\CygNet\CygNet.COMAPI.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>
